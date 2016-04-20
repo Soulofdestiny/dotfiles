@@ -1,6 +1,6 @@
-source /suse/mgriessmeier/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /suse/mgriessmeier/zsh-history-substring-search/zsh-history-substring-search.zsh
-source /suse/mgriessmeier/zsh-git-prompt/zshrc.sh
+source $HOME/dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/dotfiles/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+source $HOME/dotfiles/zsh/zsh-git-prompt/zshrc.sh
 #source "$HOME/.antigen/antigen.zsh"
 
 #antigen-use oh-my-zsh
