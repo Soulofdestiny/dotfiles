@@ -70,7 +70,8 @@ alias -g ncc='sh ~/Scripts/c_file.sh'
 alias chrome='google-chrome-stable'
 alias mcd='mkdir $1 && cd $1'
 alias gu='git fetch upstream && git merge upstream/master && git push'
-alias gp='/suse/mgriessmeier/Scripts/getparm.pl'
+alias gp="$HOME/Scripts/getparm.pl"
+alias zshreload="source $HOME/.zshrc"
 
 # Play safe!
 alias 'rm=rm -i'
@@ -79,4 +80,7 @@ alias 'mv=mv -i'
 
 #django
 alias 'dj=python manage.py'
+
+# useful stuff
+chpwd() ls -CF --color=auto
 
