@@ -81,6 +81,9 @@ alias 'mv=mv -i'
 #django
 alias 'dj=python manage.py'
 
+alias ssh_susetesting='sshpass -p susetesting ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
+alias ssh_nots3cr3t='sshpass -p nots3cr3t ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
+
 # useful stuff
 chpwd() ls -CF --color=auto
 
