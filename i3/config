@@ -31,6 +31,10 @@ font pango: Consolata 13
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
+
+# exec gnome settings daemon
+exec --no-startup-id /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+
 # Lock Screen
 bindsym $mod+l exec xlock -mode matrix
 
@@ -46,6 +50,8 @@ set $inactive-bg-color   #2f343f
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
+
+hide_edge_borders both
 
 # start a terminal with 80x50 (floating)
 for_window [class="float"] floating enable
