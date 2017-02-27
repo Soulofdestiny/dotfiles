@@ -8,8 +8,8 @@
 ### This script creates symlinks from ~ to any dotfiles in ~/dotfiles ###
 #########################################################################
 
-dir=~/dotfiles/$(hostname -f)                    # dotfiles directory
-olddir=~/dotfiles_old/$(hostname -f)            # old dotfiles backup directory
+dir=~/dotfiles/$(hostname)                    # dotfiles directory
+olddir=~/dotfiles_old/$(hostname)            # old dotfiles backup directory
 files="bashrc vimrc zshrc"        # list of files/folders to symlink in homedir
 
 # create dotfiles_old in homedir
