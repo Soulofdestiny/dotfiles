@@ -1,0 +1,113 @@
+[global_config]
+  enabled_plugins = InactivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#0b0808"
+  suppress_multiple_term_dialog = True
+  borderless = True
+[keybindings]
+  new_tab = <Primary>t
+  edit_window_title = Scroll_Lock
+[profiles]
+  [[default]]
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    background_darkness = 1.8
+    background_type = transparent
+    background_image = None
+    foreground_color = "#00ff00"
+    show_titlebar = False
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[6split]]
+    [[[child0]]]
+      position = 1920:0
+      type = Window
+      order = 0
+      parent = ""
+      size = 1920, 1041
+    [[[child1]]]
+      position = 960
+      type = HPaned
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 520
+      type = VPaned
+      order = 0
+      parent = child1
+    [[[terminal3]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child2
+    [[[terminal5]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child1
+    [[[terminal4]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child2
+  [[worker]]
+    [[[child0]]]
+      position = 2880:27
+      type = Window
+      order = 0
+      parent = ""
+      size = 960, 1016
+    [[[child1]]]
+      position = 508
+      type = VPaned
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 254
+      type = VPaned
+      order = 0
+      parent = child1
+    [[[child5]]]
+      position = 251
+      type = VPaned
+      order = 1
+      parent = child1
+    [[[terminal3]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child2
+    [[[terminal4]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child2
+    [[[terminal7]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child5
+    [[[terminal6]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child5
+  [[testenvironment]]
+    [[[child0]]]
+      position = 302:95
+      type = Window
+      order = 0
+      parent = ""
+      size = 263, 38
+    [[[terminal1]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child0
+[plugins]
