@@ -219,9 +219,7 @@ exec compton -f
 # finds out, if available)r {
 bar{
   position bottom
-  #status_command i3status -c ~/.i3/i3status.conf
   status_command py3status -c ~/.i3/i3status.conf
-  #status_command i3blocks -c ~/.i3/i3blocks.conf
 
   colors {
     separator #757575
