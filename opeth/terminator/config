@@ -2,7 +2,9 @@
   enabled_plugins = InactivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   title_transmit_bg_color = "#0b0808"
   suppress_multiple_term_dialog = True
-  borderless = True
+  borderless = true
+  handle_size = 1 
+  scrollbar_position = hidden
 [keybindings]
   new_tab = <Primary>t
   edit_window_title = Scroll_Lock
