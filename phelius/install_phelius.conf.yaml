@@ -10,11 +10,9 @@
         path: bash/bashrc
     ~/.zshrc:
         path: zsh/zshrc
-    ~/.i3/config:
+    ~/.config/i3/config:
         path: i3/config
-    ~/.i3/i3status.conf:
+    ~/.config/i3/i3status.conf:
         path: i3/i3status.conf
-    ~/.i3/i3blocks.conf:
-        path: i3/i3blocks.conf
 
 
