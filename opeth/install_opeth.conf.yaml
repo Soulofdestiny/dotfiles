@@ -2,6 +2,9 @@
     ~/.config/terminator:
         create: true
         path: terminator
+    ~/.irssi:
+        create: true
+        path: irssi
     ~/.vim: vim/.vim
     ~/.vimrc:
         relink: true
