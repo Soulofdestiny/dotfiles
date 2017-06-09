@@ -35,6 +35,9 @@ font pango: Consolata 13
 # exec gnome settings daemon
 exec --no-startup-id /usr/lib/gnome-settings-daemon/gnome-settings-daemon
 
+new_window 1pixel
+new_float 1pixel
+
 # Lock Screen
 bindsym $mod+l exec xlock -mode maze 
 
