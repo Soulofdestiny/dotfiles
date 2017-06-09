@@ -1,0 +1,27 @@
+- link:
+    ~/.config/terminator:
+        create: true
+        path: terminator
+    ~/.irssi:
+        create: true
+        path: irssi
+    ~/.vim: vim/.vim
+    ~/.vimrc:
+        relink: true
+        path: vim/vimrc
+    ~/.bashrc:
+        path: bash/bashrc
+    ~/.zshrc:
+        path: zsh/zshrc
+    ~/.config/dunst/dunstrc:
+        path: dunst/dunstrc
+    ~/.config/compton.conf:
+        path: compton/compton
+    ~/.i3/config:
+        path: i3/config
+    ~/.i3/i3status.conf:
+        path: i3/i3status.conf
+    ~/.i3/i3blocks.conf:
+        path: i3/i3blocks.conf
+
+
