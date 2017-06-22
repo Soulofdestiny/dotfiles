@@ -42,8 +42,9 @@ exec --no-startup-id /usr/bin/nm-applet
 new_window 1pixel
 new_float 1pixel
 
-# Lock Screen
-bindsym $mod+l exec xlock -mode maze 
+# (Auto) Lock Screen
+bindsym $mod+l exec xlock '~/dotfiles/scripts/screenlock.sh'
+exec xautolock -time 10 -locker '~/dotfiles/scripts/screenlock.sh' &
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
