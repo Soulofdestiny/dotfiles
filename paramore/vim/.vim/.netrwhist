@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/os-autoinst-distri-opensuse/tests/installation'
 let g:netrw_dirhist_2='/home/hackweek17/alexa-avs-sample-app/samples/javaclient'
 let g:netrw_dirhist_3='/home/opas/opaws/t/data'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/suse/mgriessmeier/.config/terminator/config'
 let g:netrw_dirhist_5='/suse/mgriessmeier/.i3'
 let g:netrw_dirhist_6='/suse/mgriessmeier/.config/dunst'
 let g:netrw_dirhist_7='/suse/mgriessmeier/dotfiles/opeth/terminator'
+let g:netrw_dirhist_8='/home/matthi/dotfiles/paramore'

@@ -23,7 +23,7 @@ workspace 1 output $secondoutput
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango: Consolata 11
+font pango: Consolata 10
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
@@ -43,8 +43,8 @@ new_window 1pixel
 new_float 1pixel
 
 # (Auto) Lock Screen
-bindsym $mod+l exec "~/dotfiles/scripts/screenlock.sh" &
-exec xautolock -time 10 -locker '~/dotfiles/scripts/screenlock.sh' &
+bindsym $mod+l exec "~/dotfiles/scripts/screenlock.sh &" 
+#exec once xautolock -time 10 -locker '~/dotfiles/scripts/screenlock.sh' 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
